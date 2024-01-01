@@ -21,3 +21,12 @@
 		});
 
 })(jQuery);
+
+// Copyright year change
+
+document.addEventListener('DOMContentLoaded', (e) => {
+	const yearE1 = document.getElementById('currentYear');
+	const currentYear = new Date().getFullYear();
+
+	yearE1.textContent = currentYear;
+})
